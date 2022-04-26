@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typhon.Core", "Typhon.Core\Typhon.Core.csproj", "{23D5282F-FBBE-4798-9299-28DDD8C9DF52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typhon.Compiler", "Typhon.Compiler\Typhon.Compiler.csproj", "{591D2127-CBC4-4D55-BB99-769B67E69480}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23D5282F-FBBE-4798-9299-28DDD8C9DF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D5282F-FBBE-4798-9299-28DDD8C9DF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D5282F-FBBE-4798-9299-28DDD8C9DF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D5282F-FBBE-4798-9299-28DDD8C9DF52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591D2127-CBC4-4D55-BB99-769B67E69480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591D2127-CBC4-4D55-BB99-769B67E69480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591D2127-CBC4-4D55-BB99-769B67E69480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591D2127-CBC4-4D55-BB99-769B67E69480}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
