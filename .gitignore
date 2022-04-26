@@ -1,1 +1,4 @@
-﻿/TestProject/Intermediates/
+﻿/TestProject/Intermediates
+**/obj
+**/bin
+**/.idea
