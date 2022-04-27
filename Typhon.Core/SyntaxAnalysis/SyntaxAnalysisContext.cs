@@ -39,11 +39,15 @@ internal class SyntaxAnalysisContext : ISyntaxAnalysisContext
     {
         var parser = new FieldDefinitionParser();
 
-        var node = parser.TryParse(new SyntaxParserData(SyntaxAnalyser, TokenStream));
+        var node = parser.TryParse(
+            new SyntaxParserData(SyntaxAnalyser, TokenStream)
+        );
 
         if (node is not null)
         {
-            using var writer = XmlWriter.Create($"Intermediates/SyntaxAnalysis/{Path.GetFileName(TokenStream.Source.Path.AbsolutePath)}.syntax.xml");
+            using var writer = XmlWriter.Create(
+                $"Intermediates/SyntaxAnalysis/{Path.GetFileName(TokenStream.Source.Path.AbsolutePath)}.syntax.xml"
+            );
             writer.WriteStartDocument();
             writer.WriteStartElement("SyntaxTree");
             node.WriteXml(writer);

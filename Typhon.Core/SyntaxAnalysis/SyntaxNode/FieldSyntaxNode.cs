@@ -11,7 +11,10 @@ public interface IFieldSyntaxNode : ISyntaxNode
 
 internal class FieldDefinitionNode : BaseSyntaxNode, IFieldSyntaxNode
 {
-    public FieldDefinitionNode(string typeName, string fieldName, IExpressionSyntaxNode? initializer = null) : base(SyntaxType.Field)
+    public FieldDefinitionNode(
+        string typeName, string fieldName,
+        IExpressionSyntaxNode? initializer = null
+    ) : base(SyntaxType.Field)
     {
         TypeName = typeName;
         FieldName = fieldName;
